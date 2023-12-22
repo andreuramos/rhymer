@@ -11,4 +11,4 @@ COPY . .
 RUN pip install --no-cache-dir -r requirements.txt
 
 # Run your CLI script with the specified parameters
-CMD ["python", "app.py", "your_word_parameter"]
+CMD ["tail", "-f", "/dev/null"]
