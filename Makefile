@@ -5,7 +5,7 @@ down:
 	docker-compose down
 
 rhyme:
-	docker-compose exec python python app.py $(word 2, $(MAKECMDGOALS))
+	docker-compose exec python python rhyme.py $(word 2, $(MAKECMDGOALS))
 
 %:
 	@:
